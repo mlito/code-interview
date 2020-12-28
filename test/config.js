@@ -1,4 +1,4 @@
-const REST_PORT = process.env.REST_PORT || 3500;
+const REST_PORT = process.env.REST_PORT || 3002;
 const PUBSUB_PORT = process.env.PUBSUB_PORT || 3535;
 const SUBSCRIBER_PORT = process.env.SUBSCRIBER_PORT || 3838;
 

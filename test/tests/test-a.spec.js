@@ -3,7 +3,7 @@ const request = require('request-promise');
 const config = require('../config');
 
 describe(`# Test part A of the coding interview`, () => {
-    const restUrl = `http://localhost:${config.REST_PORT}`;
+    const restUrl = `http://localhost:${config.REST_PORT}/api/appointment`;
     const pubsubUrl = `http://localhost:${config.PUBSUB_PORT}`;
 
     function getAppointments(specialty, date, minScore) {
