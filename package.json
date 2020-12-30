@@ -1,0 +1,27 @@
+{
+  "name": "vim_mlito",
+  "version": "1.0.0",
+  "description": "These are instructions for your coding exercise. Please read them carefully and make sure to ask whatever question pops into your mind.",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bookmd/code-interview.git"
+  },
+  "author": "Michael Litovsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bookmd/code-interview/issues"
+  },
+  "homepage": "https://github.com/bookmd/code-interview#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1"
+  }
+}
